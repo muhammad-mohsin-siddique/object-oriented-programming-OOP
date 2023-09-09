@@ -1,3 +1,3 @@
-** Introduction: **
+**Introduction:**
 
 # Object Oriented Programming #
