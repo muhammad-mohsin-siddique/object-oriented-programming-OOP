@@ -41,7 +41,7 @@ void char_test(){
     cout<<"Converted to int: "<< int(x) << endl;
     cout<<"Adding 1: "<< (char)(x + 1) << endl;
 
-
+    
     // unicode -- modern ASCII
 }
 void cin_test{
