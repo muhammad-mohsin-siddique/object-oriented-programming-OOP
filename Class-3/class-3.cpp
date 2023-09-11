@@ -36,7 +36,7 @@ void test_string(){
             cout<<"NULL Terminator Found"<<endl;
         // print each character separatly
     }
-
+ 
     string name = "Ali";
 
     cout << name << endl;
