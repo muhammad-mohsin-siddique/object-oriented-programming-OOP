@@ -88,3 +88,18 @@ To declare an array, define the variable type, specify the nameof the array foll
 </code>
 
 
+# Structs #
+
+Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure isknown as a member of the structure. 
+
+To store Hetrogenous Data:
+
+*Syntax:*
+
+<code>
+    struct student{
+        string name;
+        int roll_number;
+    };
+</code>
+
