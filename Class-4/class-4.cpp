@@ -64,7 +64,7 @@ void null_pointer_test {
     cout<< "Value of q = "  <<  q  << endl;
     cout<< "Value of *q = " << *q  << endl; // check for NULL befor using 
 
-    // NULL pointer deferencing error/ crash
+    // NULL pointer deferencing error/crash
 
 }
 
