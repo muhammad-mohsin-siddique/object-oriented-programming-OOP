@@ -11,7 +11,11 @@ int main()
     char flag;
 
     do {
+        
+        cin.ignore();
+
         cout << "\n\nPlease enter a string: ";
+        
         getline(cin, inputString);
 
         cout << "\n\nPlease enter a Key: ";
