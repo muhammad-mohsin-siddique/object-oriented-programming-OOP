@@ -7,7 +7,9 @@ using namespace std;
 int main() 
 {
     string inputString;
+    
     int key;
+
     char flag;
 
     do {

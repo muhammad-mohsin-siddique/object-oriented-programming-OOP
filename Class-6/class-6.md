@@ -60,6 +60,15 @@ For achieving file handling we need to follow the following steps:-
         getline(fine, line)
     }
 
+    // all the data according to the above code saved as characters means if we save integer 1 it is save as a character '1'.
+
+    //now we will save data in the file as integer and read the data as we have entered first.
+
+    int temp = 45;
+
+    ofstream fout("data.bin", ios::binary) // write data in the file in binary mode 
+
+    fout.write((char*) &temp ,sizeof(int)); // two parameters 1st is the pointer od the vlaue ion character and 2nd one is the size of the data type you want to store 
 
     
     
